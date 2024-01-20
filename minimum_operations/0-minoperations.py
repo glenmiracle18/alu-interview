@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+""" minimum operator function """
 def minOperations(n):
     """
     calculates minimum operations to copy and test text
