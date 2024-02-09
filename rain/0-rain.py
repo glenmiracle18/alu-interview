@@ -15,7 +15,7 @@ def rain(walls):
     n = len(walls)
     total_water = 0
 
-    for i in range(1, n-2):
+    for i in range(1, n - 1):
         max_left = max(walls[:i])
         max_right = max(walls[i+1:])
 
@@ -23,4 +23,10 @@ def rain(walls):
         if potential_water > 0:
             total_water += potential_water
 
-        return total_water
+    return total_water
+
+    """
+    Complexity:
+        time = 0(n^2)
+        space = 0(1)
+    """
