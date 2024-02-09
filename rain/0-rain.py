@@ -29,6 +29,6 @@ def rain(walls):
 
     """
     Complexity:
-        time = 0(n^2)
+        time = 0(n)
         space = 0(1)
     """
