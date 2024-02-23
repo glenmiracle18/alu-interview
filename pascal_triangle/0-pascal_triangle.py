@@ -5,7 +5,6 @@ funciton for pascals triangle
 
 
 def pascal_triangle(n):
-
     """
     Generates Pascal's triangle up to n rows using an iterative approach.
     Args:
